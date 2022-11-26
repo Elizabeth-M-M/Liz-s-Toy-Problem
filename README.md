@@ -27,8 +27,8 @@
 -It finally prints out the demerit points or "License is suspended" if above 12.
 
 ### Set up
-- The program is run by calling the speedDemeritPoint function with an argument of the current speed, which is then passed into the function.
-- The program also has one constant expression of 70, which is assigned to a constant variable of speedLimit.
+-The program is run by calling the speedDemeritPoint function with an argument of the current speed, which is then passed into the function.
+-The program also has one constant expression of 70, which is assigned to a constant variable of speedLimit.
 -The speedDemeritPoint function checks the current speed passed in if statements.
 -If the speed is less than 70, the speed limit, then it returns "Ok".
 -If the speed is above 70, it calculates the demerit points by calculating first overspeed by subtracting 70 from the current speed. The demerit points are then calculated using overspeed divided by 5.
