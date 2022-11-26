@@ -30,9 +30,9 @@
 -The program is run by calling the speedDemeritPoint function with an argument of the current speed, which is then passed into the function.
 -The program also has one constant expression of 70, which is assigned to a constant variable of speedLimit.
 -The speedDemeritPoint function checks the current speed passed in if statements.
--If the speed is less than 70, the speed limit, then it returns "Ok".
+-If the speed is less than 70, the speed limit, then it returns "Ok" and prints out `You are below the speed limit. Thank you for observing safety.`.
 -If the speed is above 70, it calculates the demerit points by calculating first overspeed by subtracting 70 from the current speed. The demerit points are then calculated using overspeed divided by 5.
--If the demerit points are less than 12, it returns the demerit points, but if above, it prints out "License is suspended".
+-If the demerit points are less than 12, it returns the demerit points and prints out `You have ... demerit points!`, but if above, it returns "License is suspended" and prints out `You are driving way above the speed limit. Your license is suspended!`.
 
 ## Net Salary Calculator
 
