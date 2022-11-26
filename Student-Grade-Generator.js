@@ -1,41 +1,41 @@
 function checkGrade() {
-    let grade = inputGrade();
+    let marks = inputMarks();
     switch (true) {
-        case grade > 79:
-            console.log(`For a grade of ${grade}, you have an A.`)
+        case marks > 79:
+            console.log(`For a marks of ${marks}, your grade is A.`)
             return ' A';
             break;
-        case grade >= 60:
-            console.log(`For a grade of ${grade}, you have a B.`)
+        case marks >= 60:
+            console.log(`For a marks of ${marks}, your grade is B.`)
             return 'B';
             break;
-        case grade >= 50:
-            console.log(`For a grade of ${grade}, you have a C.`)
+        case marks >= 50:
+            console.log(`For a marks of ${marks}, your grade is C.`)
             return 'C';
             break;
-        case grade >= 40:
-            console.log(`For a grade of ${grade}, you have a D.`)
+        case marks >= 40:
+            console.log(`For a marks of ${marks}, your grade is D.`)
             return 'D';
             break;
-        case grade < 40:
-            console.log(`For a grade of ${grade}, you have an E.`)
+        case marks < 40:
+            console.log(`For a marks of ${marks}, your grade is E.`)
             return 'E';
                        }
 }
 
-function inputGrade() {
-    let grade = prompt('Your marks on this subject is?');
+function inputMarks() {
+    let marks = prompt('Your marks on this subject is?');
 
-    if (parseInt(grade)== grade) {
-        let gradeInteger = parseInt(grade);
-        if (gradeInteger <= 100 && gradeInteger >= 0) {
-            return gradeInteger;
+    if (parseInt(marks)== marks) {
+        let marksInteger = parseInt(marks);
+        if (marksInteger <= 100 && marksInteger >= 0) {
+            return marksInteger;
         } else {
-            return alert("Kindly make sure your grade is between 0 to 100.");
+            return alert("Kindly make sure your marks is between 0 to 100.");
         }
     }
-    if (parseInt(grade) !== grade) {
-            return alert("Kindly fill in a valid grade in numbers.");
+    if (parseInt(marks) !== marks) {
+            return alert("Kindly fill in valid marks in numbers.");
     }
 }
 
