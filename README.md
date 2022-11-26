@@ -58,15 +58,18 @@ The assumption formula gathered is:
 
 - `monthlyNetSalary()` function:
     net salary = gross salary - tax(PAYE)- insurance relief(NHIF)- NSSF.
+
 The components of this program includes breaking down compontents of the formula.
 
 - `const grossSalary`:
     Gross salary = basic salary + commission + allowances.
+
 - `calculatePAYE()` funcion.
 PAYE requires input of taxable income. 
 
 - `const taxableIncome`:
 Taxable income = gross salary- allowable deductions.
+
 - `const allowableDeductions`.
 Allowable deductions = pension contribution + mortgage.
 - Gross salary was calculated above.
