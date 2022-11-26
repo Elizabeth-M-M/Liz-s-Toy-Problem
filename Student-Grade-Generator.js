@@ -31,11 +31,11 @@ function inputMarks() {
         if (marksInteger <= 100 && marksInteger >= 0) {
             return marksInteger;
         } else {
-            return alert("Kindly make sure your marks is between 0 to 100.");
+            return alert("Run the program again and make sure your marks is between 0 to 100.");
         }
     }
     if (parseInt(marks) !== marks) {
-            return alert("Kindly fill in valid marks in numbers.");
+            return alert("Run the program again and fill in valid marks in numbers.");
     }
 }
 
