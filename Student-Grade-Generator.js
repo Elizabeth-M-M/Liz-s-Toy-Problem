@@ -20,7 +20,7 @@ function checkGrade() {
         case marks < 40:
             console.log(`For a marks of ${marks}, your grade is E.`)
             return 'E';
-                       }
+}
 }
 
 function inputMarks() {

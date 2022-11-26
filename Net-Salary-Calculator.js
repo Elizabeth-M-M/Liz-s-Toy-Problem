@@ -3,11 +3,11 @@
 // Only change the values of person.key below except the ones with 'do not change'
 const person = {
     name: "Elizabeth Mwende",
-    basicSalary: 10000,
-    mortgageInterest : 0,
-    pensionContribution : 0,
-    commission : 5000,
-    allowances :0,
+    basicSalary: 150000,
+    mortgageInterest : 10000,
+    pensionContribution : 10000,
+    commission : 0,
+    allowances :20000,
     personalRelief : 2400, //do not change
     NSSFPensionOldRate : 400 //do not change
 }
