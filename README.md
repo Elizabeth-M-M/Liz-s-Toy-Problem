@@ -5,6 +5,7 @@
 -26/nov/2022.
 
 ## Challenge 1: Student Grade Generator
+
 ### About the program
 -A prompt will request one to input student's marks.
 -Marks should be between 0 and 100.
@@ -17,6 +18,7 @@
 -The checkGrade() function has assigned the value from the inputMarks() function to the marks variable, which is then passed through a switch statement and a grade is returned and a statement printed with the corresponding marks.
 
 ## Speed Detector
+
 ### About the program
 -An input of car's speed is required.
 -The speed limit is set at 70.
@@ -31,5 +33,35 @@
 -If the speed is less than 70, the speed limit, then it returns "Ok".
 -If the speed is above 70, it calculates the demerit points by calculating first overspeed by subtracting 70 from the current speed. The demerit points are then calculated using overspeed divided by 5.
 -If the demerit points are less than 12, it returns the demerit points, but if above, it prints out "License is suspended".
+
+## Net Salary Calculator
+
+### About the program
+-The program calculates a net salary of a person.
+-The inputs required are basic salary, benefits, PAYE, NHIF deductions, NSSF deductions, gross salary and net salary.
+
+### Set up
+
+#### The person object
+-The program requires the user to input values in the person object.
+-The values to be modified are for the keys: name, basic salary, commission, allowances, pension contribution and mortgage interest.
+-Note that no key should be modified, only the values of the key.
+-Aside from the name key the requires a string input, the rest of the inputs should be in numbers
+-If the user has no input, he/she should put 0;
+
+#### Running the program
+-The user calls the monthlyNetSalary() function, which prints out the components of calculating the net salary and returns the net salary.
+-Most data, for example for the NHIF, PAYE and NSSF calculation, is sourced from this website; https://www.aren.co.ke/payroll/taxrates.htm#PAYE
+-The assumption formula gathered is:
+    net salary = gross salary - tax(PAYE)- insurance relief(NHIF)- NSSF.
+-The components of this program includes breaking down compontents of the formula.
+-Gross salary = basic salary + commission + allowances
+-PAYE requires input of taxable income. 
+    -Taxable income = gross salary- allowable deductions.
+        -Allowable deductions = pension contribution + mortgage.
+        -Gross salary was calculated above.
+-Insurance relief requires gross salary as input and passed through a ternary operator.
+-NSSF is constant as provided.
+
 
 
