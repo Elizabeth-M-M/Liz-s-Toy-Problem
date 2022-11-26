@@ -7,6 +7,8 @@ Programs by Elizabeth Mwende Muthusi
 ## Challenge 1: Student Grade Generator
 
 ### About the program
+This program will generate a student's grade from the marks input.
+
 - A prompt will request one to input student's marks.
 - Marks should be between 0 and 100.
 - The grade output would be as follows:(  A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40).
@@ -20,6 +22,8 @@ Programs by Elizabeth Mwende Muthusi
 ## Speed Detector
 
 ### About the program
+This program is able to print if speed is within appropriate limits and place a penalty if above the speed limit specified.
+
 - An input of car's speed is required.
 - The speed limit is set at 70.
 - It prints "Ok" if speed of car is less than speed limit.
@@ -37,8 +41,7 @@ Programs by Elizabeth Mwende Muthusi
 ## Net Salary Calculator
 
 ### About the program
-- The program calculates a net salary of a person.
-- The inputs required are basic salary, benefits, PAYE, NHIF deductions, NSSF deductions, gross salary and net salary.
+The program calculates a net salary of a person. The inputs required are basic salary, benefits, PAYE, NHIF deductions, NSSF deductions, gross salary and net salary.
 
 ### Set up
 
