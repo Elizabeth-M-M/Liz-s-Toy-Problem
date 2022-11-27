@@ -86,6 +86,9 @@ function messageSummary() {
     console.log (`Your monthly tax is ${tax}`)
   
 }
+
+// Run the code below this line
 console.log(monthlyNetSalary());
+// Run the code above this line
 
 

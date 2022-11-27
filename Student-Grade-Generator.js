@@ -1,3 +1,4 @@
+// This function takes marks input from inputMarks function and categorizes it accordingly
 function checkGrade() {
     let marks = inputMarks();
     switch (true) {
@@ -23,6 +24,8 @@ function checkGrade() {
 }
 }
 
+// This function prompts the user to return a numerical answer, and failure to do so is prompted to run the program again
+
 function inputMarks() {
     let marks = prompt('Your marks on this subject is?');
 
@@ -39,5 +42,6 @@ function inputMarks() {
     }
 }
 
-
+// Run the code below this line
 console.log(checkGrade());
+// Run the code above this line
