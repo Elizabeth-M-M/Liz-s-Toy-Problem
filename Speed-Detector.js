@@ -1,6 +1,6 @@
 const speedLimit = 70;
 function speedDemeritPoint(speed) {
-    if (speed < 70) {
+    if (speed < speedLimit) {
         console.log(`You are below the speed limit. Thank you for observing safety.`)
         return "Ok";
     } else {
@@ -16,4 +16,4 @@ function speedDemeritPoint(speed) {
     }
 
 }
-console.log(speedDemeritPoint(180))
+console.log(speedDemeritPoint(60))
